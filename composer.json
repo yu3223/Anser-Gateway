@@ -13,7 +13,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SDPMlab\\AnserGateway\\": "system/"
+            "App\\": "",
+            "SDPMlab\\AnserGateway\\": "system/",
+            "App\\Event\\": "app/Event"
         }
     },
     "authors": [
@@ -40,10 +42,11 @@
         "vlucas/phpdotenv": "^5.5",
         "mikey179/vfsstream": "^1.6",
         "sdpmlab/anser-action": "^0.3.7",
-        "php-amqplib/php-amqplib": "^3.0"
+        "php-amqplib/php-amqplib": "^3.0",
+        "sdpmlab/anser": "^0.1.2"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.17",
-        "phpunit/phpunit": "10.0.1"
+        "phpunit/phpunit": "^10.5"
     }
 }
